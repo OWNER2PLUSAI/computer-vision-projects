@@ -36,7 +36,7 @@ while True:
         pts2 = barcode.rect
         
         #show Authorized or Un-Authorized
-        cv.putText(img,mydata, (pts2[0],pts2[1]) ,cv.FONT_HERSHEY_COMPLEX,
+        cv.putText(img,myOutPut, (pts2[0],pts2[1]) ,cv.FONT_HERSHEY_COMPLEX,
                    0.7 ,myColor ,2)
         
     cv.imshow("Result", img)
