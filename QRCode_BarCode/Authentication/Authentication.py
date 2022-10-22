@@ -12,7 +12,7 @@ cap.set(3, 640)
 cap.set(4, 480)
 
 # read private barcode and qrcode in db(mysql)
-with open("D:\Python\Github\computer-vision-projects\QRCode_BarCode\myQfile.text") as f:
+with open("D:\Python\Github\computer-vision-projects\QRCode_BarCode\Authentication\myQRfile.text") as f:
     mydataList = f.read().splitlines()
 
 while True:
